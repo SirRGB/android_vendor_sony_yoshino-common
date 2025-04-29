@@ -564,15 +564,8 @@ PRODUCT_PACKAGES += \
     libq3dtools_adreno \
     libq3dtools_esx \
     vulkan.msm8998 \
-    libAlacSwDec \
-    libApeSwDec \
     libC2D2 \
     libFidoCrypto_vendor \
-    libFlacSwDec \
-    libOmxAlacDecSw \
-    libOmxApeDecSw \
-    libOmxEvrcDec \
-    libOmxQcelp13Dec \
     libOpenCL \
     libQTEEConnector_vendor \
     libadreno_utils \
@@ -597,7 +590,6 @@ PRODUCT_PACKAGES += \
     librs_adreno_sha1 \
     libvpphvx \
     libCB \
-    libOmxDsdDec \
     libOmxVideoDSMode \
     libadm \
     libadsp_hvx_callback_skel \
