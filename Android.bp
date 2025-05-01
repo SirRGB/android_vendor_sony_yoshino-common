@@ -13745,3 +13745,9 @@ cc_library_shared {
     compile_multilib: "32",
     soc_specific: true,
 }
+
+cc_library_shared {
+    name: "libtime_genoff",
+    compile_multilib: "64",
+    soc_specific: true,
+}
