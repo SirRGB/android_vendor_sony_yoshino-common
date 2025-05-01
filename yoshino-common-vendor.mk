@@ -434,7 +434,6 @@ PRODUCT_PACKAGES += \
     libhdcp1prov \
     libhdcp2p2prov \
     libllvm-glnext \
-    libminksocket \
     libmm-hdcpmgr \
     libvpphvx \
     libCB \
@@ -567,6 +566,7 @@ PRODUCT_PACKAGES += \
     liblowi_wifihal \
     liblqe \
     libmdmdetect \
+    libminksocket \
     libmmosal \
     libnetmgr \
     libnetmgr_common \
