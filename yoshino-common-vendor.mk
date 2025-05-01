@@ -525,6 +525,9 @@ PRODUCT_PACKAGES += \
     libGPreqcancel_svc \
     libQSEEComAPI \
     libSecureUILib \
+    libasn1cper \
+    libasn1crt \
+    libasn1crtx \
     libbase64 \
     libbatching \
     libcacertclient \
