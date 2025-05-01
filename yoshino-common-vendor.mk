@@ -701,7 +701,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.imsrtpservice@3.0_vendor \
     vendor.qti.latency@2.0 \
     vendor.qti.latency@2.1 \
-    vendor.somc.hardware.miscta@1.0 \
+    vendor.somc.hardware.miscta@1.0_vendor \
     libFastRPC_AUE_Forward_skel \
     libFastRPC_UTF_Forward_Qtc2_skel \
     libFastRPC_UTF_Forward_skel \

@@ -10840,7 +10840,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.somc.hardware.miscta@1.0",
+    name: "vendor.somc.hardware.miscta@1.0_vendor",
+    stem: "vendor.somc.hardware.miscta@1.0",
     owner: "sony",
     strip: {
         none: true,
