@@ -423,7 +423,6 @@ PRODUCT_PACKAGES += \
     libadreno_utils \
     libadsp_default_listener \
     libadsprpc \
-    libbccQTI \
     libc2d30_bltlib \
     libcdsprpc \
     libdiag \
@@ -431,15 +430,12 @@ PRODUCT_PACKAGES += \
     libfastcrc \
     libfastcvadsp_stub \
     libfastrpc_utf_stub \
-    libgpustats \
     libgsl \
     libhdcp1prov \
     libhdcp2p2prov \
     libllvm-glnext \
     libminksocket \
     libmm-hdcpmgr \
-    librs_adreno \
-    librs_adreno_sha1 \
     libvpphvx \
     libCB \
     libOmxVideoDSMode \
