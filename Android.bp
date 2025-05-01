@@ -13637,6 +13637,12 @@ cc_library_shared {
 }
 
 cc_library_shared {
+    name: "libStDrvInt",
+    compile_multilib: "64",
+    soc_specific: true,
+}
+
+cc_library_shared {
     name: "libkeymasterutils",
     compile_multilib: "64",
     soc_specific: true,
