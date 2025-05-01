@@ -13753,3 +13753,9 @@ install_symlink {
     installed_location: "lib64/libq3dtools_adreno.so",
     symlink_target: "/vendor/lib64/egl/libq3dtools_adreno.so",
 }
+
+cc_library_shared {
+    name: "libmmcamera_dbg",
+    compile_multilib: "32",
+    soc_specific: true,
+}
