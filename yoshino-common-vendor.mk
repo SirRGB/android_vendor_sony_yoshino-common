@@ -431,10 +431,7 @@ PRODUCT_PACKAGES += \
     libfastcvadsp_stub \
     libfastrpc_utf_stub \
     libgsl \
-    libhdcp1prov \
-    libhdcp2p2prov \
     libllvm-glnext \
-    libmm-hdcpmgr \
     libvpphvx \
     libCB \
     libOmxVideoDSMode \
@@ -806,8 +803,6 @@ PRODUCT_PACKAGES += \
     dpmQmiMgr \
     energy-awareness \
     ffu \
-    hdcp1prov \
-    hdcp2p2prov \
     hvdcp_opti \
     android.hardware.gnss@2.1-service-qti \
     qcrild \
