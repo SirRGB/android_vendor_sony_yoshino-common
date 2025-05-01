@@ -850,52 +850,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.vpp@1.1",
-    owner: "sony",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/system/lib/vendor.qti.hardware.vpp@1.1.so",
-            ],
-            shared_libs: [
-                "libhidlbase-v32",
-                "libhidltransport",
-                "libhwbinder",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/system/lib64/vendor.qti.hardware.vpp@1.1.so",
-            ],
-            shared_libs: [
-                "libhidlbase-v32",
-                "libhidltransport",
-                "libhwbinder",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-}
-
-cc_prebuilt_library_shared {
     name: "vendor.semc.hardware.light@1.0",
     owner: "sony",
     strip: {
@@ -2711,47 +2665,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libvpphvx",
-    owner: "sony",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libvpphvx.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libadsprpc",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libvpphvx.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libadsprpc",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libCB",
     owner: "sony",
     strip: {
@@ -2767,37 +2680,6 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libgsl",
                 "libutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libOmxVideoDSMode",
-    owner: "sony",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libOmxVideoDSMode.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libmmosal_proprietary",
-                "libutils",
-                "libOmxCore",
-                "libwfdcommonutils_proprietary",
-                "libwfdmmservice",
-                "libbinder",
                 "libc++",
                 "libc",
                 "libm",
@@ -4095,33 +3977,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libsurround_3mic_proc.so",
             ],
             shared_libs: [
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libvqzip",
-    owner: "sony",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libvqzip.so",
-            ],
-            shared_libs: [
-                "libutils",
-                "libcutils",
-                "liblog",
                 "libc++",
                 "libc",
                 "libm",

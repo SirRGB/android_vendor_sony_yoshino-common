@@ -290,8 +290,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yoshino-common/proprietary/vendor/etc/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml \
     vendor/sony/yoshino-common/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     vendor/sony/yoshino-common/proprietary/vendor/etc/seccomp_policy/imsrtp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/imsrtp.policy \
-    vendor/sony/yoshino-common/proprietary/vendor/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
-    vendor/sony/yoshino-common/proprietary/vendor/etc/seccomp_policy/mediaextractor.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor.policy \
     vendor/sony/yoshino-common/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
     vendor/sony/yoshino-common/proprietary/vendor/etc/sensors/sensor_def_somc_platform.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_somc_platform.conf \
     vendor/sony/yoshino-common/proprietary/vendor/etc/sony_effect/effect_params.data:$(TARGET_COPY_OUT_VENDOR)/etc/sony_effect/effect_params.data \
@@ -382,7 +380,6 @@ PRODUCT_PACKAGES += \
     libseemore \
     vendor.qti.hardware.qteeconnector@1.0 \
     vendor.qti.hardware.tui_comm@1.0 \
-    vendor.qti.hardware.vpp@1.1 \
     vendor.semc.hardware.light@1.0 \
     vendor.semc.system.idd@1.0 \
     vendor.somc.hardware.miscta@1.0 \
@@ -432,9 +429,7 @@ PRODUCT_PACKAGES += \
     libfastrpc_utf_stub \
     libgsl \
     libllvm-glnext \
-    libvpphvx \
     libCB \
-    libOmxVideoDSMode \
     libadm \
     libadsp_hvx_callback_skel \
     libadsp_hvx_stub \
@@ -483,7 +478,6 @@ PRODUCT_PACKAGES += \
     libsony_fooddetect \
     libsony_naruto \
     libsurround_3mic_proc \
-    libvqzip \
     libznr \
     libasphere \
     libqcbassboost \
